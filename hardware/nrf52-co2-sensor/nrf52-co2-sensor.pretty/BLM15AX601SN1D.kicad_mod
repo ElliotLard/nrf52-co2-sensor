@@ -1,0 +1,106 @@
+(footprint "BLM15AX601SN1D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b561cbf-0e9e-413e-ad88-685c58c5fb17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BLM15AX601SN1D"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c2a31ba7-0032-4a86-98d1-3aad45ea681e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af2c9398-3cfc-4f27-a5d2-87a100828611")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30b2db78-40cc-487f-a9a1-486ebd015a13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.56 -0.3)
+		(end 0.56 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "20e400f2-7091-4487-b33f-99d8eb50fe7d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34bd307a-d6ee-4881-8703-8ff65d8bb08a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.375 0)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8f5243db-6ebe-4d1c-8ffe-edde1f90685c")
+	)
+	(pad "" smd roundrect
+		(at 0.375 0)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9d218190-3bea-4162-82c5-977e6aa4e3be")
+	)
+	(embedded_fonts no)
+	(model "/Users/elliotlard/Documents/Projects/nrf52-co2-sensor/hardware/BLM15AX601SN1D (Ferrite Bead)/BEADC1005X55N.step"
+		(offset
+			(xyz 0 -0.28 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
