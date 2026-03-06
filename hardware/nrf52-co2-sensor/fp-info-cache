@@ -1,4 +1,4 @@
-27248266035723027
+27251811691558248
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107920,6 +107920,20 @@ BLM15AX601SN1D
 0
 nrf52-co2-sensor
 MDBT50Q
+
+
+0
+0
+0
+nrf52-co2-sensor
+SW4_SKRPABE010_ALPS
+
+SKRPABE010 
+0
+4
+4
+nrf52-co2-sensor
+Untitled
 
 
 0
