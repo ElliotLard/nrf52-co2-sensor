@@ -23,25 +23,27 @@ This project includes:
 
 **Current Status (March 2025)**
 
-- Rev A schematic nearly finalized
-- Component footprints being finalized
-- Preparing for PCB layout
+- Rev A schematic finalized | March 7, 2026
+- PCB Layout ready for review | March 9, 2025
 
 **Next Steps**
 
-- Complete PCB layout in KiCad
+- PCB Review
 - Order and assemble Rev A PCB
 - Develop firmware for nRF52840
 - Implement BLE data transmission
 - Integrate with smart home platforms
-
 ---
 
-# System Overview
+# Hardware Design
 
-Example architecture:
+## Schematic (Rev A)
 
-<img width="703" height="94" alt="image" src="https://github.com/user-attachments/assets/921732d3-8f2c-4236-8e71-bcc3ab52bbfc" />
+<img width="1019" height="643" alt="image" src="https://github.com/user-attachments/assets/8754bd1f-20a0-4323-b7d6-042973b2565d" />
+
+## PCB Layout (Rev A)
+
+<img width="734" height="355" alt="image" src="https://github.com/user-attachments/assets/21d132f4-f084-4601-bfa1-aca9cad92252" />
 
 ---
 
@@ -75,14 +77,6 @@ NDIR-based CO₂ sensor with integrated temperature and humidity measurement.
 
 ---
 
-## LDO Regulator (5V → 3.3V)
-
-**TLV75533PDBVR**
-
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/1e76d243-6e61-4710-bae9-95faf6b0d0c5" />
-
----
-
 ## USB-C Receptacle
 
 **USB4105-GF-A**
@@ -93,11 +87,7 @@ Used for power and optional USB communication/debugging.
 
 ---
 
-# Hardware Design
 
-## Schematic (Rev A)
-
-<img width="1019" height="643" alt="image" src="https://github.com/user-attachments/assets/8754bd1f-20a0-4323-b7d6-042973b2565d" />
 <!---
 Future updates:
 
