@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.4,
-          "min_island_area": 10.0,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -76,7 +76,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|102455000|149450000|13406f35-167b-446f-b5e4-2cf83060c887|e5508941-4bfc-4901-9a8a-d7fdd0022139",
+          ""
+        ],
+        [
+          "hole_clearance|102455000|149450000|edca7e56-f3e2-47f4-ae2f-260a1a8eb470|e5508941-4bfc-4901-9a8a-d7fdd0022139",
+          ""
+        ],
+        [
+          "hole_clearance|102455000|155550000|5fb986df-1e43-4658-8e86-26f3fbe6e83c|7876367d-7607-48ad-b4a4-5d0cd5a49aa2",
+          ""
+        ],
+        [
+          "hole_clearance|102455000|155550000|86351c44-e1b9-410c-9c1d-df032400f10a|7876367d-7607-48ad-b4a4-5d0cd5a49aa2",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|103500000|164752500|1b420149-9cd8-488a-ba30-979c4d371132|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|123397400|150700000|fe862262-34dc-4495-95a9-a7a60dd51095|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|149000000|158702500|c95da9f9-bf88-4726-a673-dd38c79402c3|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -147,21 +176,21 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.127,
-        "min_connection": 0.0,
+        "min_connection": 0.127,
         "min_copper_edge_clearance": 0.381,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.127,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.127,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.6,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -211,11 +240,12 @@
       ],
       "track_widths": [
         0.0,
-        0.19,
-        0.2,
-        0.25,
-        0.3,
-        0.4
+        0.2032,
+        0.254,
+        0.381,
+        0.508,
+        0.762,
+        1.016
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -249,8 +279,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
-          "drill": 0.3
+          "diameter": 0.6096,
+          "drill": 0.3048
+        },
+        {
+          "diameter": 0.8128,
+          "drill": 0.4064
         }
       ],
       "zones_allow_external_fillets": false
@@ -548,7 +582,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcbpdf/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -634,12 +668,6 @@
         },
         {
           "group_by": false,
-          "label": "digikey",
-          "name": "digikey",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "drawing",
           "name": "drawing",
           "show": false
@@ -648,7 +676,7 @@
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -660,6 +688,18 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
           "show": false
         }
       ],
@@ -719,7 +759,7 @@
         "uuid": "9ad7a3f1-fb76-4970-9fd1-cb2a639f410b"
       }
     ],
-    "used_designators": "J3,J5-6,#PWR15-16,D3,C8-10,R10-12,Q1-2",
+    "used_designators": "J3,J5-7,#PWR15-17,D3,C8-11,R10-12,Q1-2",
     "variants": []
   },
   "sheets": [
