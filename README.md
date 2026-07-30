@@ -1,6 +1,5 @@
 # nrf52-co2-sensor
 
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![MCU](https://img.shields.io/badge/MCU-nRF52840-blue)
 ![Sensor](https://img.shields.io/badge/Sensor-SCD30-green)
 ![Interface](https://img.shields.io/badge/Interface-BLE%20%2B%20I2C-lightgrey)
@@ -13,7 +12,6 @@ This project includes:
 
 - Custom **schematic design**
 - **PCB layout** in KiCad
-- **Embedded firmware development**
 - **BLE communication**
 - Sensor integration using **I²C**
 
@@ -21,19 +19,15 @@ This project includes:
 
 # Project Status
 
-**Current Status (March 2025)**
-
-- Rev A schematic finalized | March 7, 2026
-- PCB Layout ready for review | March 9, 2025
-
-**Next Steps**
-
-- PCB Review
-- Order and assemble Rev A PCB
-- Develop firmware for nRF52840
-- Implement BLE data transmission
-- Integrate with smart home platforms
+**Current Status (30 July 2026)**
+- Rev A Board has been printed and assembled
 ---
+#Front
+<img width="3189" height="1901" alt="IMG_5199" src="https://github.com/user-attachments/assets/e0a3ebb4-8903-462f-8f5d-5eceb88e8438" />
+
+#Back
+<img width="3924" height="2136" alt="IMG_5160" src="https://github.com/user-attachments/assets/ac1d5edb-9903-43e0-aba9-ae04c07e93ec" />
+
 
 # Hardware Design
 
